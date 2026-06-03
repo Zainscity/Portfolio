@@ -1,55 +1,55 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report
+Version change: N/A -> 1.0.0
+Modified principles: Initial setup
+Added sections: Core Principles, Technical Stack, Coding Standards, Governance
+Templates requiring updates:
+- .specify/templates/plan-template.md ✅ updated
+- .specify/templates/spec-template.md ✅ updated
+- .specify/templates/tasks-template.md ✅ updated
+Follow-up TODOs: None
+-->
+# Personal Portfolio Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### Server-First Architecture
+Prioritize React Server Components (RSC) by default; only use "use client" when interactivity or hooks are strictly required.
+**Rationale**: Maximize performance, minimize bundle size, and leverage Next.js App Router capabilities.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### Type-Safe Engineering
+Use TypeScript in strict mode with explicit interface definitions. Write modular, DRY, and well-documented code.
+**Rationale**: Ensure maintainability, reduce runtime errors, and provide clear contracts for components.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### Accessible & SEO Optimized
+Ensure perfect accessibility (a11y) and SEO optimization using highly semantic HTML.
+**Rationale**: Guarantee inclusive user experience and maximize organic discoverability.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### Minimalist Executive Design
+Adhere to "simple but elegant" aesthetic: high contrast, sophisticated typography, generous whitespace, and zero unnecessary visual noise.
+**Rationale**: Maintain professional focus on engineering capabilities and work.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### Professional Micro-interactions
+Use Framer Motion for subtle, professional animations and smooth scroll behavior. Avoid flashy or distracting transitions.
+**Rationale**: Enhance the premium feel without compromising the minimalist aesthetic.
 
-### [PRINCIPLE_6_NAME]
+## Technical Stack
 
+- Framework: Next.js (App Router)
+- Language: TypeScript (Strict mode)
+- Styling: Tailwind CSS
+- Animations: Framer Motion
+- Deployment: Vercel
 
-[PRINCIPLE__DESCRIPTION]
+## Coding Standards
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
-
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Modular and DRY implementation.
+- Semantic HTML for all components.
+- Explicit interfaces for all props and data models.
+- Prioritize RSC over Client Components.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution supersedes all other practices. Amendments require a proposed change, review of impact on principles, and approval by the architect. All code changes must be verified against these principles during review.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-05-31 | **Last Amended**: 2026-05-31

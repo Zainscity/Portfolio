@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #09090b; /* Zinc 950 */
+  --primary: #6366f1;    /* Indigo 500 */
+  --primary-foreground: #ffffff;
+  --muted: #f4f4f5;      /* Zinc 100 */
+  --muted-foreground: #71717a; /* Zinc 400 */
+  --border: #e4e4e7;     /* Zinc 200 */
+  --input: #e4e4e7;
+  --ring: #6366f1;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.dark {
+  --background: #09090b; /* Zinc 950 */
+  --foreground: #fafafa; /* Zinc 50 */
+  --primary: #818cf8;    /* Indigo 400 */
+  --primary-foreground: #09090b;
+  --muted: #18181b;      /* Zinc 900 */
+  --muted-foreground: #a1a1aa; /* Zinc 400 */
+  --border: #27272a;     /* Zinc 800 */
+  --input: #27272a;
+  --ring: #818cf8;
+}
+
+* {
+  border-color: var(--border);
+  transition: background-color 200ms ease-in-out, border-color 200ms ease-in-out, color 200ms ease-in-out;
+}
