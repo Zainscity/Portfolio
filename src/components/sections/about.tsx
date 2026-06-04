@@ -37,7 +37,7 @@ export function About() {
             <div className="absolute -inset-1 bg-gradient-to-r from-primary to-indigo-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
             <div className="relative aspect-square rounded-2xl overflow-hidden border border-border bg-background">
               <Image
-                src="/photo.png"
+                src="/Photo.png"
                 alt="Zain ul Abideen"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"

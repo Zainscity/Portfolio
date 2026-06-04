@@ -29,6 +29,10 @@ export function LottieAnimation({
         animationData={animationData}
         loop={loop}
         autoplay={autoplay}
+        style={{ width: "100%", height: "100%" }}
+        rendererSettings={{
+          preserveAspectRatio: "xMidYMid slice",
+        }}
       />
     </div>
   );

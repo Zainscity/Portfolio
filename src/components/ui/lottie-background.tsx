@@ -10,10 +10,10 @@ import animationData from "@/assets/animations/background_animation.json";
  */
 export function LottieBackground() {
   return (
-    <div className="fixed inset-0 -z-20 w-full h-full overflow-hidden pointer-events-none">
+    <div className="fixed inset-0 -z-50 w-full h-full overflow-hidden pointer-events-none">
       <LottieAnimation
         animationData={animationData}
-        className="w-full h-full object-cover scale-105"
+        className="w-full h-full"
         loop={true}
         autoplay={true}
       />
