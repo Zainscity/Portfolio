@@ -20,38 +20,6 @@ A premium, minimalist portfolio focused on **Next.js** and **Agentic AI Orchestr
 - **Dark Mode Support:** Fully responsive and optimized for both light and dark themes.
 - **Optimized Performance:** High Core Web Vitals scores using Next.js Server Components.
 
-## 🛠️ Getting Started
-
-### Prerequisites
-
-- Node.js 18.x or later
-- npm or pnpm
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/zainscity/portfolio.git
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
-   Create a `.env.local` file in the root directory:
-   ```env
-   NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY=your_key_here
-   ```
-
-4. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
 ## 📁 Project Structure
 
 - `src/app`: Next.js App Router pages and layouts.
